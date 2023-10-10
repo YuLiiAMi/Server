@@ -20,7 +20,7 @@ app.post("/login", (req, res) => {
     const token = "jld6lv'9fbW8";
     res.json({ token });
   } else {
-    res.status(401).json({ message: "Логин или пароль не верны" });
+    res.status(401).send("Логин или пароль не верны. Введите еще раз");
   }
 });
 
