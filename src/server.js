@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const categories = require("./data/categories.json");
+const category = require("./data/categories.json");
 const products = require("./data/products.json");
 
 const app = express();
@@ -22,7 +22,7 @@ app.post("/login", (req, res) => {
   const user = users.find((u) => u.username === username);
 
   if (user && user.password === password) {
-    const token = "jld6lv'9fbW8";
+    const token = "jld6lv9fbW8";
     res.json({ token });
   } else {
     res.status(401).send("Логин или пароль не верны. Введите еще раз");
@@ -30,6 +30,10 @@ app.post("/login", (req, res) => {
 });
 
 app.get("/api/products/table", function (request, response) {
+  response.json(products);
+});
+
+app.get("/api/products/preview", function (request, response) {
   response.json(products);
 });
 
