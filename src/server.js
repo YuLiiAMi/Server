@@ -29,13 +29,35 @@ app.post("/login", (req, res) => {
   }
 });
 
-app.get("/api/products/table", function (request, response) {
+app.get("/products/table", function (request, response) {
   response.json(products);
 });
 
-app.get("/api/products/preview", function (request, response) {
+app.get("/products/preview", function (request, response) {
   response.json(products);
 });
+
+app.get("/products/preview/:productId", function (req, res) {
+  const productId = req.params.productId;
+  const product = findProductById(productId);
+
+  if (product) {
+    res.json(product);
+  } else {
+    res.status(404).send("Продукт не знайдено");
+  }
+});
+
+function findProductById(productId) {
+  for (const category in products) {
+    const productsInCategory = products[category];
+    const product = productsInCategory.find((p) => p.id === productId);
+    if (product) {
+      return product;
+    }
+  }
+  return null;
+}
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
