@@ -2,49 +2,55 @@
   "pc": [
     {
       "id": "0",
-		  "imageURL": "https://m.media-amazon.com/images/I/21Z4k9AOhhL.__AC_QL70_FMwebp_.jpg",
+      "imageURL": "https://m.media-amazon.com/images/I/21Z4k9AOhhL.__AC_QL70_FMwebp_.jpg",
       "Name": "Lenovo Y50-70 Aluminum Black",
       "Quantity": 5,
-      "Price": 25000
+      "Price": 25000,
+      "Description": "Цей потужний ноутбук Lenovo Y50-70 Aluminum Black прекрасно підходить для геймерів та професіоналів. Він оснащений потужним процесором і великим екраном, що забезпечує високу продуктивність та чудову якість зображення."
     },
     {
       "id": "1",
-		  "imageURL": "https://i.citrus.world/imgcache/size_150/uploads/shop/f/5/f57331226f8b045d8164c825a976d07d.jpg",
+      "imageURL": "https://i.citrus.world/imgcache/size_150/uploads/shop/f/5/f57331226f8b045d8164c825a976d07d.jpg",
       "Name": "Asus ROG Strix",
       "Quantity": 10,
-      "Price": 30000
+      "Price": 30000,
+      "Description": "Геймерський ноутбук Asus ROG Strix - це ідеальний вибір для геймерів, які шукають високу продуктивність та вражаючий графічний дизайн. Він має потужний процесор та великий обсяг пам'яті для найвимогливіших ігор."
     }
   ],
   "clothes": [
     {
       "id": "2",
-		  "imageURL": "https://yesoriginal.com.ua/image/cache/catalog/cover/CW6122-010-472x497.webp",
+      "imageURL": "https://yesoriginal.com.ua/image/cache/catalog/cover/CW6122-010-472x497.webp",
       "Name": "Nike M Nk Df Acd21",
       "Quantity": 22,
-      "Price": 4000
+      "Price": 4000,
+      "Description": "Стильна спортивна одяг від Nike, ідеально підходить для активного спорту та повсякденного використання. Зручний та стильний дизайн."
     },
     {
       "id": "3",
-		  "imageURL": "https://gfx.r-gol.com/media/res/products/514/159514/465x605/ik9514_1.jpg",
+      "imageURL": "https://gfx.r-gol.com/media/res/products/514/159514/465x605/ik9514_1.jpg",
       "Name": "Adidas Men's Tiro",
       "Quantity": 15,
-      "Price": 3500
+      "Price": 3500,
+      "Description": "Adidas Men's Tiro - це чудові спортивні штани, які відмінно підходять для тренувань та фізичних навантажень. Зручність і стиль в одному виробі."
     }
   ],
   "plumbing": [
     {
       "id": "4",
-		  "imageURL": "https://magma.lv/360559-thickbox_default/cersanit-toilet-mito-best-031.jpg",
+      "imageURL": "https://magma.lv/360559-thickbox_default/cersanit-toilet-mito-best-031.jpg",
       "Name": "CERSANIT MITO 17",
       "Quantity": 13,
-      "Price": 5000
+      "Price": 5000,
+      "Description": "CERSANIT MITO 17 - це сучасний туалет з високою якістю та елегантним дизайном. Відмінний вибір для вашої ванної кімнати."
     },
     {
       "id": "5",
-		  "imageURL": "https://m.media-amazon.com/images/I/41Jsh--QBeS.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "imageURL": "https://m.media-amazon.com/images/I/41Jsh--QBeS.__AC_SY300_SX300_QL70_ML2_.jpg",
       "Name": "KOLO Novella",
       "Quantity": 50,
-      "Price": 7500
+      "Price": 7500,
+      "Description": "KOLO Novella - це сучасний водонапірний кран з елегантним дизайном. Ідеально підходить для ванної кімнати або кухні."
     }
   ]
 }
